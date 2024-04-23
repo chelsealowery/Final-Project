@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lowery Exotics - Set Appointment</title>
+    <link rel="stylesheet" href="../css/styles.css"> <!-- You can link your CSS file here -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <header>
+            <h1>Set Appointment</h1>
+        </header>
+
+        <!-- Appointment Scheduling -->
+        <section>
+            <h2>Appointment Details</h2>
+            <form action="#" method="post">
+                <label for="service">Select Service Type:</label>
+                <select id="service" name="service">
+                    <option value="detailing">Detailing</option>
+                    <option value="tuning">Dyno and Tuning</option>
+                    <option value="wraps">Wraps and Custom Painting</option>
+                </select><br><br>
+
+                <label for="date">Select Date and Time:</label>
+                <input type="datetime-local" id="date" name="date"><br><br>
+
+                <label for="employee">Select Employee:</label>
+                <select id="employee" name="employee">
+                    <option value="john">John Doe</option>
+                    <option value="sarah">Sarah Smith</option>
+                    <option value="mike">Mike Johnson</option>
+                    <option value="kenny">Kenny Smith</option>
+                    <option value="kaitlyn">Kaitlyn Aubree</option>
+                </select><br><br>
+
+                <hr>
+
+                <!-- Appointment Form -->
+                <h2>Contact Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <hr>
+
+                <h2>Car Information</h2>
+                <label for="make">Make:</label>
+                <input type="text" id="make" name="make"><br><br>
+
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model"><br><br>
+
+                <label for="year">Year:</label>
+                <input type="text" id="year" name="year"><br><br>
+
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color"><br><br>
+
+                <input type="submit" value="Submit Appointment">
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Lowery Exotics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
